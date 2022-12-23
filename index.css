@@ -3,10 +3,10 @@
     padding: 0;
     margin: 0;
     color: #d4d4d4;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family:  'Roboto Condensed', 'SF Pro Display', sans-serif;
     text-shadow: -1px 1px 3px #00000075;
 }
-
+/* https://wedistill.io/uploads/videos/processed/33/Cold2520Winter2520Dream-HD3_1.mp4.mp4 */
 ul{
     list-style-type: none;
     padding-left: 0;
@@ -174,7 +174,7 @@ video{
     align-items: center;
     background-color: #00000095;
     font-family: "Poppins", sans-serif;
-    font-size: 23vw;
+    font-size: 27vw;
     font-weight: bold;
     text-transform: uppercase;
     height: 90.8vh;
@@ -186,14 +186,14 @@ video{
     z-index: 8;
 }
 .s2{
-    animation-duration: 1.2s;
+    animation-duration: 0.8s;
     animation-name: s2;
     color: #c9c9c9;
     z-index: 7;
 }
 @keyframes s2 {
     from {
-        opacity: 0.2;
+        opacity: 0;
         transform: translate(-200px, 0);
     }
   
@@ -204,14 +204,14 @@ video{
 }
 
 .s3{
-    animation-duration: 1.2s;
+    animation-duration: 0.8s;
     animation-name: s3;
     color: #c9c9c9;
     z-index: 6;
 }
 @keyframes s3 {
     from {
-        opacity: 0.2;
+        opacity: 0;
         transform: translate(-450px, 0);
     }
   
@@ -222,14 +222,14 @@ video{
 }
 
 .s4{
-    animation-duration: 1.2s;
+    animation-duration: 0.8s;
     animation-name: s4;
     color: #c9c9c9;
     z-index: 5;
 }
 @keyframes s4 {
     from {
-        opacity: 0.2;
+        opacity: 0;
         transform: translate(-650px, 0);
     }
   
@@ -240,14 +240,14 @@ video{
 }
 
 .s5{
-    animation-duration: 1.2s;
+    animation-duration: 0.8s;
     animation-name: s5;
     color: #c9c9c9;
     z-index: 4;
 }
 @keyframes s5 {
     from {
-        opacity: 0.2;
+        opacity: 0;
         transform: translate(-850px, 0);
     }
   
@@ -258,14 +258,14 @@ video{
 }
 
 .s6{
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-name: s6;
     color: #c9c9c9;
     z-index: 4;
 }
 @keyframes s6 {
     from {
-        opacity: 0.2;
+        opacity: 0;
         transform: translate(-950px, 0);
     }
   
@@ -275,14 +275,14 @@ video{
     }
 }
 .s7{
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-name: s7;
     color: #c9c9c9;
     z-index: 3;
 }
 @keyframes s7 {
     from {
-        opacity: 0.2;
+        opacity: 0;
         transform: translate(-1150px, 0);
     }
   
@@ -306,7 +306,7 @@ video{
 .ev-banner__title {
     font-size: 93px;
     margin-bottom: 30px;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-name: title_frame;
 }
 @keyframes title_frame {
