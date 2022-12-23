@@ -130,46 +130,6 @@ a{
     background-color: #c9c9c930;
 }
 
-.ev-banner{
-    position: relative;
-    background-image: url("./assets/banner_background.jpg");
-    background-position: center center;  
-    background-attachment: fixed; 
-    background-size: cover;
-    width: 100%;
-    height: 786px;
-}
-/* .ev-banner__iphone-screen{
-    position: absolute;
-    right: 35px;
-    bottom: 162px;
-    background-image: url("./assets/iphone-screen.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 440px;
-    z-index: 2;
-
-    animation-duration: 3.5s;
-    animation-name: slidein;
-} */
-@keyframes slidein {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-        opacity: 1;
-    }
-}
-video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900");
 
 .everest_title_wrapper{
@@ -187,8 +147,15 @@ video{
     font-size: 27vw;
     font-weight: bold;
     text-transform: uppercase;
-    height: 90.8vh;
+    max-width: 100%;
+    height: 100vh;
     user-select: none;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.s{
+    color: #c9c9c9;
 }
 .s1{
     /* animation-duration: 1.3s;
@@ -199,7 +166,6 @@ video{
 .s2{
     animation-duration: 0.8s;
     animation-name: s2;
-    color: #c9c9c9;
     z-index: 7;
 }
 @keyframes s2 {
@@ -217,7 +183,6 @@ video{
 .s3{
     animation-duration: 0.8s;
     animation-name: s3;
-    color: #c9c9c9;
     z-index: 6;
 }
 @keyframes s3 {
@@ -235,7 +200,6 @@ video{
 .s4{
     animation-duration: 0.8s;
     animation-name: s4;
-    color: #c9c9c9;
     z-index: 5;
 }
 @keyframes s4 {
@@ -253,7 +217,6 @@ video{
 .s5{
     animation-duration: 0.8s;
     animation-name: s5;
-    color: #c9c9c9;
     z-index: 4;
 }
 @keyframes s5 {
@@ -271,7 +234,6 @@ video{
 .s6{
     animation-duration: 0.8s;
     animation-name: s6;
-    color: #c9c9c9;
     z-index: 4;
 }
 @keyframes s6 {
@@ -288,7 +250,6 @@ video{
 .s7{
     animation-duration: 0.8s;
     animation-name: s7;
-    color: #c9c9c9;
     z-index: 3;
 }
 @keyframes s7 {
@@ -305,12 +266,8 @@ video{
 
 
 .ev-banner__video{
+    object-fit: cover;
     z-index: 1;
     width: 100%;
-    height: 90.8vh;
-}
-.ev-banner__container{
-    padding: 150px 90px;
-    max-width: 1000px;
-    /* border: 1px dashed #fff; */
+    height: 100vh;
 }
